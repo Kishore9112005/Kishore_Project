@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+#nav {
+  background-color: black;
+  height: 50px;
+  left: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  color: white;
+}
+body{
+    background-image: url(105382.gif);
+    background-size: 100%;
+
+}
+
+label{
+       text-shadow: 2px 2px 20px black;
+
+}
+#container {
+  border-radius: 20px;
+  top: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  height: 500px;
+  width: 500px;
+   background: rgba(255, 255, 255, 0.2);
+   box-shadow: 2px 2px 20px;
+}
+
+ 
+#user_img {
+    margin-top: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+#usename {
+       background: rgba(255, 255, 255, 0.2);
+border: 0;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+   box-shadow: 2px 2px 20px black;
+}   
+#password {
+       background: rgba(255, 255, 255, 0.2);
+border: 0;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+     box-shadow: 2px 2px 20px black;
+
+}
+button{
+    padding: 20px;
+    border-radius: 70px;
+    border: 0;
+    margin-top: 20px;
+   background: rgba(255, 255, 255, 0.2);
+   box-shadow: 2px 2px 20px black;
+}
+
+button:active{
+   background: rgba(255, 255, 255, 0.966);
+
+}

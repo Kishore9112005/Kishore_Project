@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+}
+form {
+  background-image: linear-gradient(red, black);
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-left: 500px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px black;
+}
+
+h1 {
+  text-shadow: 5px 5px 15px black;
+}
+
+label {
+  padding: 10px;
+  font-family: sans-serif;
+} 
+
+#num_box {
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px 15px red;
+  border: 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px red;
+  border: 0;
+}
+
+#submit:hover {
+  background-color: red;
+  box-shadow: 5px 5px 15px black;
+}

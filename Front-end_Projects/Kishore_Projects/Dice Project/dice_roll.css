@@ -1,0 +1,46 @@
+#container {
+  margin: auto;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, rgb(126, 181, 245), pink);
+  width: 500px;
+  height: 600px;
+  box-shadow: 5px 5px 15px black;
+}
+h1{
+    margin-bottom: 5px;
+}
+label {
+  font-size: 2em;
+}
+input {
+    margin-top: 20px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 5px 5px 10px black;
+}
+
+#imges{
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+margin-right: 20px;
+width: 200px;
+}
+
+button {
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 20px;
+  border: 0;
+  margin-top: 50px;
+  background: linear-gradient(to right, blue, black);
+  color: white;
+  box-shadow: 5px 4px 10px black;
+
+}
+button:active {
+  background: linear-gradient(to right, black, blue);
+}
