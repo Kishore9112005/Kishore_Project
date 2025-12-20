@@ -1,26 +1,35 @@
-const username = document.getElementById("username").value;
-const password = document.getElementById("password").value;
-const btn = document.getElementById("btn");
-function Login(length, Uppercase, Lowercase, numbers, symbols) {
-  const Uppercase = "abcdefghijklmnopqrstuvwxyz";
-  const Lowercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const numbers = "1234567890";
-  const symbols = "!@#$%^&*()?.";
+let username = document.getElementById("username");
+let passwordBox = document.getElementById("password");
+function ran(length=5)
+{
+  let password=" ";
+  let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let lower = "abcdefghijklmnopqrstuvwxzy";
+  let num = "1234567890";
+  let symbol = "!@#$%^&*()<>?:';/.,";
 
- if(username.length < 4 )
- {
-  return window.alert("User Username and password generated");
+  
+  let all = upper + lower + num + symbol;
 
- }
- if(username !== Uppercase)
- {
-  alert
- }
+  for(let i=0; i<length;i++)
+  {
+    const randomIndex=Math.floor(Math.random()*all.length);
+    password+=all[randomIndex];
+  }
+  passwordBox.value=password;
 
 }
-const PasswordLength = 12;
-const Uppercase = true;
-const Lowercase = true;
-const numbers = true;
-const symbols = true;
-const Password = Login(length, Uppercase, Lowercase, numbers, symbols);
+
+
+function Login() {
+  
+  if (username === " " || password === " ") {
+    alert("Enter the vaild username and password");
+  } else if (username.lenght < 5) {
+    alert("The username atleast contains 4 characters");
+  } else if (password.lenght < 5) {
+    alert("The password have atleast contains 6 characters");
+  } else {
+    alert("Your username and password was created successfully");
+  }
+}
